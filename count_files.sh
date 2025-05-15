@@ -10,6 +10,6 @@ echo "Erreur : le répertoire '$1' n'existe pas."
 exit 1
 fi
 #Compter le nombre de fichiers (exclut les dossiers cachés)
-nombre_fichuers=$(ls -lA "$1" | grep "^-" | wc -l)
+nombre_fichiers=$(ls -lA "$1" | grep "^-" | wc -l)
 #Affiche le résultat 
 echo "le dossier $1 contient $nombre_fichiers fichier(s)."
